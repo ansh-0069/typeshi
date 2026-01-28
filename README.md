@@ -143,7 +143,7 @@ npm run dev
 
 ## 👤 Author
 
-**Ansh Kumar**  
+** Kumar Anshuman**  
 GitHub: https://github.com/ansh-0069
 
 ---
