@@ -1,52 +1,24 @@
 # 🧪 Mass Balance Calculator  
-### AI-Assisted Pharmaceutical Stability Analysis Tool
 
-A **dual-mode Mass Balance Calculator** (Web App + Excel) built for **forced degradation studies** in pharmaceuticals, aligned with **ICH Q1A(R2)** guidelines.
-
-This project enables analysts to **accurately calculate mass balance**, **select the correct method automatically**, and **generate professional, audit-ready PDF reports in seconds**.
-
----
-
-## 🚨 Problem Statement
-
-In pharmaceutical stability testing:
-
-- Mass balance calculations are **manual and error-prone**
-- Multiple calculation methods exist, but **no clear guidance** on which to use
-- Excel sheets are inconsistent and hard to audit
-- Report generation is slow and non-standard
-
-❌ These issues lead to **delays, rework, and regulatory risk**.
-
----
-
-## ✅ Our Solution
-
-An **intelligent Mass Balance Calculator** that:
-
-- Supports **four industry-accepted methods**
-- Automatically **recommends the optimal method**
-- Applies **correction factors (λ, ω)** where required
-- Generates **professional PDF reports**
-- Works both **online (web app)** and **offline (Excel)**
-
----
-
-## 🔬 Supported Calculation Methods
 
 | Method | Description |
 |------|------------|
 | SMB | Simple Mass Balance |
 | AMB | Absolute Mass Balance |
 | RMB | Relative Mass Balance |
+<<<<<<< HEAD
 | LK-IMB | Lukulay-Körner Improved Mass Balance (Recommended) |
 
 The system automatically selects the most appropriate method based on degradation behavior and data quality.
+=======
+| **LK-IMB** | Lukulay–Körner Improved Mass Balance (Recommended) |
+>>>>>>> 02b5908 (Add hackathon-optimized README)
 
 ---
 
 ## 🧠 Key Features
 
+<<<<<<< HEAD
 - 🎯 Intelligent method recommendation
 - 🎨 Color-coded risk assessment (PASS / ALERT / OOS)
 - 📊 Interactive charts and visual gauges
@@ -54,11 +26,20 @@ The system automatically selects the most appropriate method based on degradatio
 - 🕒 Calculation history tracking
 - 📈 Trend-analysis ready
 - 📋 ICH Q1A(R2) compliant logic
+=======
+- 🎯 Intelligent method recommendation  
+- 🎨 PASS / ALERT / OOS color logic  
+- 📊 Charts, gauges, diagnostics  
+- 📄 One-click PDF export  
+- 🕒 History tracking  
+- 📋 ICH Q1A(R2) compliance  
+>>>>>>> 02b5908 (Add hackathon-optimized README)
 
 ---
 
 ## 🖥️ Web Application
 
+<<<<<<< HEAD
 ### Tech Stack
 - **Frontend:** React, Vite, Tailwind CSS
 - **Backend:** Node.js, Express
@@ -82,11 +63,30 @@ The system automatically selects the most appropriate method based on degradatio
 - Diagnostic summary sheet
 - Trend tracking support
 - Compatible with Excel and Google Sheets
+=======
+**Tech Stack**
+- Frontend: React + Vite + Tailwind CSS  
+- Backend: Node.js + Express  
+- Database: SQLite  
+- Charts: Recharts  
+- PDF: jsPDF  
+
+---
+
+## 📊 Excel Tool
+
+- Formula-based (no macros)  
+- Validated inputs  
+- Conditional formatting  
+- Diagnostic summary  
+- Trend tracking  
+>>>>>>> 02b5908 (Add hackathon-optimized README)
 
 ---
 
 ## 📂 Project Structure
 
+<<<<<<< HEAD
 typeshi/
 ├── backend/ # Express API + SQLite
 ├── frontend/ # React frontend
@@ -108,3 +108,67 @@ npm run dev
 cd frontend
 npm install
 npm run dev
+=======
+```
+typeshi/
+├── backend/        # Express API + SQLite
+├── frontend/       # React frontend
+└── README.md       # Documentation
+```
+
+---
+
+## 🚀 Run Locally
+
+### Backend
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## 🧪 Sample Test Case
+
+**Input**
+- Initial API: 98%
+- Stressed API: 82.5%
+- Initial Degradants: 0.5%
+- Stressed Degradants: 4.9%
+- RRF: 0.8
+- Parent MW: 500
+- Degradant MW: 250
+
+**Output**
+- LK-IMB: **96.2%**
+- Status: ✅ PASS
+
+---
+
+## 📈 Impact
+
+- ⏱️ Hours → minutes  
+- ❌ Fewer human errors  
+- 📑 Standardized compliance reporting  
+- 🧑‍🔬 Junior-friendly  
+- 🏭 Lab-ready  
+
+---
+
+## 👤 Author
+
+**Ansh Kumar**  
+GitHub: https://github.com/ansh-0069
+
+---
+
+> *“We didn’t just build a calculator — we automated a regulatory workflow.”*
+>>>>>>> 02b5908 (Add hackathon-optimized README)
