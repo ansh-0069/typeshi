@@ -1,69 +1,71 @@
 # 🧪 Mass Balance Calculator  
+### Smart, Audit-Ready Pharmaceutical Stability Analysis
 
+> **Hackathon Project | Pharma × Software × Automation**
+
+A dual-mode **Mass Balance Calculator (Web + Excel)** designed to eliminate manual errors in pharmaceutical forced degradation studies, aligned with **ICH Q1A(R2)** regulatory guidelines.
+
+---
+
+## 🏆 Why This Project Wins Hackathons
+
+- ✅ Solves a **real, high-stakes industry problem**
+- 🔬 Backed by **scientific & regulatory logic**
+- ⚡ Demonstrates **automation + UX + backend engineering**
+- 📄 Produces **judge-impressing PDF outputs**
+- 🚀 Immediately usable in real labs
+
+---
+
+## 🚨 Problem Statement
+
+In pharmaceutical stability testing:
+
+- Mass balance calculations are manual and error-prone  
+- Analysts must choose between multiple methods without guidance  
+- Excel workflows are inconsistent and non-auditable  
+- Reporting is slow and regulator-risky  
+
+❌ Result: delays, rework, and compliance risk.
+
+---
+
+## 💡 Our Solution
+
+An **intelligent Mass Balance Calculator** that:
+
+- Implements **4 industry-accepted methods**
+- Automatically **recommends the best method**
+- Applies **scientific correction factors (λ, ω)**
+- Generates **professional PDF reports**
+- Works **online (web app)** and **offline (Excel)**
+
+---
+
+## 🔬 Supported Methods
 
 | Method | Description |
 |------|------------|
 | SMB | Simple Mass Balance |
 | AMB | Absolute Mass Balance |
 | RMB | Relative Mass Balance |
-<<<<<<< HEAD
-| LK-IMB | Lukulay-Körner Improved Mass Balance (Recommended) |
-
-The system automatically selects the most appropriate method based on degradation behavior and data quality.
-=======
 | **LK-IMB** | Lukulay–Körner Improved Mass Balance (Recommended) |
->>>>>>> 02b5908 (Add hackathon-optimized README)
 
 ---
 
 ## 🧠 Key Features
 
-<<<<<<< HEAD
-- 🎯 Intelligent method recommendation
-- 🎨 Color-coded risk assessment (PASS / ALERT / OOS)
-- 📊 Interactive charts and visual gauges
-- 📄 Professional PDF report export
-- 🕒 Calculation history tracking
-- 📈 Trend-analysis ready
-- 📋 ICH Q1A(R2) compliant logic
-=======
 - 🎯 Intelligent method recommendation  
 - 🎨 PASS / ALERT / OOS color logic  
 - 📊 Charts, gauges, diagnostics  
 - 📄 One-click PDF export  
 - 🕒 History tracking  
 - 📋 ICH Q1A(R2) compliance  
->>>>>>> 02b5908 (Add hackathon-optimized README)
 
 ---
 
 ## 🖥️ Web Application
 
-<<<<<<< HEAD
-### Tech Stack
-- **Frontend:** React, Vite, Tailwind CSS
-- **Backend:** Node.js, Express
-- **Database:** SQLite
-- **Charts:** Recharts
-- **PDF Generation:** jsPDF
-
-### Capabilities
-- Real-time calculations
-- Save and review past runs
-- Download audit-ready PDF reports
-- Clean, responsive UI
-
----
-
-## 📊 Excel Tool (Offline)
-
-- Yellow input cells with validation
-- Formula-based calculations (no macros)
-- Conditional formatting (Green / Yellow / Red)
-- Diagnostic summary sheet
-- Trend tracking support
-- Compatible with Excel and Google Sheets
-=======
 **Tech Stack**
 - Frontend: React + Vite + Tailwind CSS  
 - Backend: Node.js + Express  
@@ -80,35 +82,11 @@ The system automatically selects the most appropriate method based on degradatio
 - Conditional formatting  
 - Diagnostic summary  
 - Trend tracking  
->>>>>>> 02b5908 (Add hackathon-optimized README)
 
 ---
 
 ## 📂 Project Structure
 
-<<<<<<< HEAD
-typeshi/
-├── backend/ # Express API + SQLite
-├── frontend/ # React frontend
-├── README.md # Project documentation
-
-
----
-
-## 🚀 Running the Project Locally
-
-### Backend
-
-cd backend
-npm install
-npm run dev
-
-
-**Frontend**
-cd frontend
-npm install
-npm run dev
-=======
 ```
 typeshi/
 ├── backend/        # Express API + SQLite
@@ -171,4 +149,3 @@ GitHub: https://github.com/ansh-0069
 ---
 
 > *“We didn’t just build a calculator — we automated a regulatory workflow.”*
->>>>>>> 02b5908 (Add hackathon-optimized README)
